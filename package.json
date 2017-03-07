@@ -9,13 +9,17 @@
     "pointers",
     "fragmentid"
   ],
-  "main": "index.js",
+  "files": [
+    "dist.js"
+  ],
+  "main": "dist.js",
   "directories": {
     "example": "examples",
     "test": "test"
   },
   "scripts": {
     "release": "babel --presets es2015 --minified --no-comments index.js --out-file releases/json-ptr-$npm_package_version.min.js",
+    "prepublish": "babel --presets es2015 index.js --out-file dist.js",
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report html -- -R spec",
     "pretest": "eslint .",
     "test": "mocha -R spec"
