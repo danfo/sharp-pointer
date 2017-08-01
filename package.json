@@ -1,6 +1,6 @@
 {
   "name": "sharp-pointer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Dan Forster <dan.forster@gmail.com>",
   "description": "A complete implementation of JSON Pointer (RFC 6901) for nodejs and modern browsers.",
   "keywords": [
