@@ -407,7 +407,7 @@ _result:_
 
 ## Tests
 
-Tests are written using [mocha](http://visionmedia.github.io/mocha/) and [expect.js](https://github.com/Automattic/expect.js).
+Tests are written using [mocha](http://mochajs.org/) and [expect.js](https://github.com/Automattic/expect.js).
 
 ```bash
 npm test
